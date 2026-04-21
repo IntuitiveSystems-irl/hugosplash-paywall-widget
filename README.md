@@ -46,17 +46,10 @@ Control the paywall via `data-*` attributes on the mounting `<div>`:
 | Attribute | Default | Description |
 |---|---|---|
 | `data-paywall-id` | required | Paywall UUID from hugosplash.com dashboard |
-| `data-api-base` | `https://hugosplash.com` | API origin — change to self-host |
-| `data-title` | from paywall | Override title shown above QR |
 | `data-theme` | `light` | `light` \| `dark` |
-| `data-on-unlock` | — | Name of a global function to call on unlock |
 | `data-redirect` | — | URL to redirect to after unlock |
 
-## Self-hosting
-
-If you want to run the whole stack yourself:
-- Backend: https://github.com/IntuitiveSystems-irl/hugosplash-saas (coming soon)
-- This widget: point `data-api-base` at your own API
+The widget auto-detects its API backend from the script's origin. Load the script from `https://hugosplash.com/paywall.js` (recommended) and everything routes through the HugoSplash backend — no config needed.
 
 ## How it works
 
