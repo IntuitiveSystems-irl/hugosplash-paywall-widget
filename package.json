@@ -1,0 +1,34 @@
+{
+  "name": "hugosplash-paywall-widget",
+  "version": "1.0.0",
+  "description": "Drop-in Bitcoin Lightning paywall for any website. One-line install, 0% platform fees, instant settlement.",
+  "main": "src/paywall.js",
+  "files": [
+    "src/",
+    "examples/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "bitcoin",
+    "lightning",
+    "paywall",
+    "lightning-network",
+    "monetization",
+    "creator-economy",
+    "nostr",
+    "bolt11",
+    "sats",
+    "widget"
+  ],
+  "author": "HugoSplash <hi@businessintuitive.tech> (https://hugosplash.com)",
+  "license": "MIT",
+  "homepage": "https://hugosplash.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IntuitiveSystems-irl/hugosplash-paywall-widget.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IntuitiveSystems-irl/hugosplash-paywall-widget/issues"
+  }
+}
